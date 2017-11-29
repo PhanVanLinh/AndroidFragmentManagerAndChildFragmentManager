@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a0dddd"
+    android:focusable="true"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Fragment 3"
+        />
+
+    <Button
+        android:id="@+id/button_go_to_fragment_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to fragment 4"
+        />
+
+    <Button
+        android:id="@+id/button_pop_without_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pop"
+        />
+
+    <Button
+        android:id="@+id/button_fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Button At FragMENT 3"
+        android:duplicateParentState="true"
+        />
+
+</LinearLayout>
